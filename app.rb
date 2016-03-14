@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Tobenna sucks"
+  "Tobenna sucks d"
 end
 
 get '/secret' do
