@@ -13,12 +13,12 @@ get '/name/time' do
 end
 
 get '/random-cat' do
-  @cat_name = %w(Amigo Oscar Viking).sample
+  @name = %w(Amigo Oscar Viking).sample
   erb(:index)
 end
 
 get '/named-cat' do
   p params
-  @cat_name = params[:name]
+  @name = params[:name]
   erb(:index)
 end
